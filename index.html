@@ -51,8 +51,46 @@
 
     <main>
         <h2>Apa itu Version Control System (VCS)?</h2>
-        <p> <strong>Version Control System</strong> sebuah sistem yang berfungsi untuk mengelola dan merekam setiap perubahan pada file atau proyek dari waktu ke waktu. Sebagai contoh, daripada Anda menyimpan banyak file skripsi dengan nama seperti skripsi_v1.docx dan skripsi_final_banget.docx, VCS secara otomatis mengelola semua versi ini dalam satu riwayat yang rapi, sehingga Anda bisa kembali ke versi sebelumnya kapan saja jika terjadi kesalahan. Ada beberapa jenis VCS, namun yang paling modern adalah Distributed Version Control System (DVCS), di mana Git adalah contoh utamanya. Dalam sistem ini, setiap anggota tim tidak hanya mengunduh file terbaru, tetapi memiliki salinan lengkap dari seluruh riwayat proyek di komputernya, membuat kolaborasi lebih aman dan fleksibel karena setiap salinan juga berfungsi sebagai cadangan.</p>
+        <p> <strong>Version Control System</strong> adalah sebuah sistem yang berfungsi untuk mengelola dan merekam setiap perubahan pada file atau proyek dari waktu ke waktu. Sebagai contoh, daripada Anda menyimpan banyak file skripsi dengan nama seperti skripsi_v1.docx dan skripsi_final_revisi.docx, VCS secara otomatis mengelola semua versi ini dalam satu riwayat yang terstruktur, sehingga Anda bisa kembali ke versi sebelumnya kapan saja jika terjadi kesalahan. Ada beberapa jenis VCS, namun yang paling modern adalah Distributed Version Control System (DVCS), di mana Git adalah contoh utamanya. Dalam sistem ini, setiap anggota tim tidak hanya mengunduh file terbaru, tetapi memiliki salinan lengkap dari seluruh riwayat proyek di komputernya, membuat kolaborasi lebih aman dan fleksibel karena setiap salinan juga berfungsi sebagai cadangan.
+        </p>
+        <h3>Jenis Version Control System</h3>
+        <ol>
+            <li><strong>Version Control System (LVCS)</strong> adalah sistem yang menyimpan semua versi file di komputer lokal pengguna. Contohnya adalah RCS (Revision Control System) yang memungkinkan pengguna untuk melacak perubahan pada file teks. Namun, LVCS memiliki keterbatasan dalam hal kolaborasi karena hanya satu pengguna yang dapat mengakses dan mengelola versi file pada satu waktu.</li>
+            <li><strong>Centralized Version Control System (CVCS)</strong> menggunakan server pusat untuk menyimpan semua versi file. Contoh populer dari CVCS adalah Subversion (SVN) dan Concurrent Versions System (CVS). Dalam sistem ini, pengguna mengunduh file dari server pusat, melakukan perubahan, dan kemudian mengunggah kembali ke server. Meskipun CVCS memungkinkan kolaborasi antar pengguna, sistem ini rentan terhadap kegagalan server pusat yang dapat menyebabkan hilangnya data.</li>
+            <li><strong>Distributed Version Control System (DVCS)</strong> adalah sistem di mana setiap pengguna memiliki salinan lengkap dari seluruh riwayat proyek di komputernya. Git adalah contoh paling terkenal dari DVCS. Dalam sistem ini, pengguna dapat bekerja secara independen tanpa perlu terhubung ke server pusat, memungkinkan kolaborasi yang lebih fleksibel dan aman. Setiap salinan juga berfungsi sebagai cadangan, sehingga risiko kehilangan data berkurang secara signifikan.</li>
+        
+        </ol>
+        
+        <h3>Git: Version Control System Paling Populer</h3>
+        <p>Git adalah distributed version control software system yang mampu menangani perubahan dari source code atau data. Git sering digunakan untuk mengontrol source code oleh programmers yang secara berkolaborasi mengembangkan sistem. Terdapat tiga keadaan utama terkait keberadaan file: modified, staging, committed.</p>
+        <ul>
+            <li><strong>Modified</strong>: File telah diubah tetapi belum disimpan ke dalam database Git.</li>
+            <li><strong>Staging</strong>: File telah diubah dan ditandai untuk disimpan ke dalam database Git pada commit berikutnya.</li>
+            <li><strong>Committed</strong>: File telah disimpan secara permanen ke dalam database Git.</li>
+        </ul>
 
+        <h3>Github</h3>
+        <p>GitHub adalah platform hosting berbasis web yang menggunakan sistem kontrol versi Git. GitHub menyediakan layanan penyimpanan repositori Git secara online, memungkinkan pengembang untuk menyimpan, mengelola, dan berkolaborasi pada proyek perangkat lunak dari mana saja di dunia. Selain itu, GitHub menawarkan berbagai fitur tambahan seperti pelacakan isu (issue tracking), permintaan tarik (pull requests), dan integrasi dengan alat pengembangan lainnya, yang memudahkan tim dalam mengelola proyek mereka secara efisien.</p>
+
+        <h3>fungsi dasar git</h3>
+        <ul>
+            <li>Git Init</li>
+            <li>Git Add</li>
+            <li>Git Status</li>
+            <li>Git Restore</li>
+            <li>Git Commit</li>
+            <li>Git Log</li>
+            <li>Git Checkout</li>
+            <li>Git Branch</li>
+            <li>Git Merge</li>
+            <li>Git Push</li>
+            <li>Git Pull</li>
+            <li>Git Fetch</li>
+            <li>Git Clone</li>
+        </ul>
+
+        <h3>Fork</h3>
+        <p>Fork adalah salinan dari repositori yang memungkinkan Anda untuk bereksperimen dengan perubahan tanpa mempengaruhi proyek asli. Forking sebuah repositori memungkinkan Anda untuk mengusulkan perubahan ke proyek asli melalui pull request. Ini adalah cara yang umum digunakan dalam kolaborasi open source, di mana pengembang dapat bekerja pada fitur atau perbaikan bug secara independen sebelum menggabungkan perubahan mereka kembali ke repositori utama.</p>
         </main>
         
     <footer>
